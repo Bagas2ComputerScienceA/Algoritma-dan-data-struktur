@@ -1,0 +1,37 @@
+
+Algoritma Narasi Deskriptif Program Menghitung Nilai Akhir Siswa
+Awal
+
+Tampilkan Judul Program:
+
+"PROGRAM HITUNG NILAI AKHIR"
+Minta Input Data Siswa:
+
+"Nama Siswa: "
+Baca input dari pengguna dan simpan sebagai nama_siswa
+"Nilai Keaktifan: "
+Baca input dari pengguna dan simpan sebagai nilai_keaktifan (konversi ke tipe float)
+"Nilai Tugas: "
+Baca input dari pengguna dan simpan sebagai nilai_tugas (konversi ke tipe float)
+"Nilai Ujian: "
+Baca input dari pengguna dan simpan sebagai nilai_ujian (konversi ke tipe float)
+Hitung Nilai Murni:
+
+nilai_murni_keaktifan = nilai_keaktifan * 0.2
+nilai_murni_tugas = nilai_tugas * 0.5
+nilai_murni_ujian = nilai_ujian * 0.3
+Hitung Nilai Akhir:
+
+nilai_akhir = nilai_murni_keaktifan + nilai_murni_tugas + nilai_murni_ujian
+Tampilkan Hasil Perhitungan:
+
+"Siswa yang bernama ………" & (nama_siswa)
+"Dengan Nilai Persentasi Yang dihasilkan."
+"Nilai Keaktifan * 20% : " & (nilai_murni_keaktifan)
+"Nilai Tugas * 50% : " & (nilai_murni_tugas)
+"Nilai Ujian * 30% : " & (nilai_murni_ujian)
+"Jadi Siswa yang bernama ……… memperoleh nilai akhir sebesar ………" & (nama_siswa, nilai_akhir)
+Tahan Tampilan Hasil:
+
+Tunggu pengguna menekan Enter untuk keluar
+Akhir
