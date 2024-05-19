@@ -1,0 +1,33 @@
+*Program Hitung Nilai Rata-rata Siswa*
+
+*Input:*
+  * Nim Siswa: String
+  * Nama Siswa: String
+  * Nilai Tugas I: Float
+  * Nilai Tugas II: Float
+  * Nilai Tugas III: Float
+
+*Proses:*
+  1. *Tampilkan Layar Masukkan:*
+    * "PROGRAM HITUNG NILAI RATA-RATA"
+    * "Nim Siswa :"
+    * "Nama Siswa :"
+    * "Nilai Tugas I :"
+    * "Nilai Tugas II :"
+    * "Nilai Tugas III :"
+  2. *Baca input:*
+    * Nim Siswa
+    * Nama Siswa
+    * Nilai Tugas I
+    * Nilai Tugas II
+    * Nilai Tugas III
+  3. *Hitung nilai rata-rata:*
+    * Rata-rata = (Nilai Tugas I + Nilai Tugas II + Nilai Tugas III) / 3
+  4. *Tampilkan Layar Keluaran:*
+    * "Nim ....... Siswa yang bernama ......"
+    * "Memperoleh nilai rata-rata ....... dari hasil tugas yang diikutinya."
+      * Ganti "...." dengan nilai yang sesuai
+  5. *Tahan tampilan:*
+    * Gunakan fungsi getch() untuk menahan tampilan agar tidak langsung kembali ke listing program
+  6. *Minta input karakter:*
+    * Minta pengguna untuk memasukkan satu buah karakter untuk keluar dari program
