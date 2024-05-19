@@ -1,0 +1,28 @@
+Tampilkan Judul Program:
+
+"PROGRAM HITUNG NILAI RATA-RATA"
+Minta Input Data Siswa:
+
+"Nim Siswa: "
+Baca input dari pengguna dan simpan sebagai nim_siswa
+"Nama Siswa: "
+Baca input dari pengguna dan simpan sebagai nama_siswa
+"Nilai Tugas I: "
+Baca input dari pengguna dan simpan sebagai nilai_tugas1 (konversi ke tipe float)
+"Nilai Tugas II: "
+Baca input dari pengguna dan simpan sebagai nilai_tugas2 (konversi ke tipe float)
+"Nilai Tugas III: "
+Baca input dari pengguna dan simpan sebagai nilai_tugas3 (konversi ke tipe float)
+Hitung Nilai Rata-rata:
+
+nilai_rata_rata = (nilai_tugas1 + nilai_tugas2 + nilai_tugas3) / 3
+Tampilkan Hasil Perhitungan:
+
+"Nim ........ Siswa yang bernama ......"
+Cetak nim_siswa dan nama_siswa
+"Memperoleh nilai rata-rata ..... dari hasil tugas yang diikutinya"
+Cetak nilai_rata_rata dengan format desimal 2 tempat
+Tahan Tampilan Hasil:
+
+Tunggu pengguna menekan Enter untuk keluar
+Akhir
